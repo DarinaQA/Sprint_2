@@ -3,7 +3,7 @@ import model.constants.Colour;
 import model.constants.Discount;
 import java.math.BigDecimal;
 
-public class Apple extends Food implements Discountable {
+public class Apple extends Food {
     private String colour;
 
     public Apple(int amount, BigDecimal price, String colour) {
